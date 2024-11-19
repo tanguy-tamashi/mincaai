@@ -40,11 +40,11 @@
             },
             chatWindow: {
                 showTitle: true,
-                title: 'Flowise Bot',
+                title: 'MincaAI Assistant',
                 titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
                 showAgentMessages: true,
-                welcomeMessage: 'Hello! This is custom welcome message',
-                errorMessage: 'This is a custom error message',
+                welcomeMessage: 'Hello! Feel free to ask any information about MincaAI.',
+                errorMessage: 'Sorry, I didnt understand',
                 backgroundColor: "#ffffff",
                 backgroundImage: 'enter image path or link', // If set, this will overlap the background color of the chat window.
                 height: 700,
@@ -70,8 +70,8 @@
                     backgroundColor: '#ffffff',
                     textColor: '#303235',
                     sendButtonColor: '#3B81F6',
-                    maxChars: 50,
-                    maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
+                    maxChars: 500,
+                    maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 500 characters.',
                     autoFocus: true, // If not used, autofocus is disabled on mobile and enabled on desktop. true enables it on both, false disables it on both.
                     sendMessageSound: true,
                     // sendSoundLocation: "send_message.mp3", // If this is not used, the default sound effect will be played if sendSoundMessage is true.
@@ -84,13 +84,14 @@
                 footer: {
                     textColor: '#303235',
                     text: 'Powered by',
-                    company: 'Flowise',
-                    companyLink: 'https://flowiseai.com',
+                    company: 'MincaAI',
+                    companyLink: 'https://mincaai.framer.ai/',
                 }
             }
         }
     })
 </script>
+
     </body>
 </html>
 
